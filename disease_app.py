@@ -5,9 +5,9 @@ import joblib
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 st.title("Disease  prediction App")
-diabetes=joblib.load('model/Diabetes_result.pkl')
-heart_disease=joblib.load('model/Heart_disease_Prediction.pkl')
-fever=joblib.load('model/fever_disease_Prediction.pkl')
+diabetes=joblib.load('Model/Diabetes_result.pkl')
+heart_disease=joblib.load('Model/Heart_disease_Prediction.pkl')
+fever=joblib.load('Model/fever_disease_Prediction.pkl')
 # Ask the user to choose a method
 tab1,tab2,tab3=st.tabs(['Diabetes_prediction','Heart_disease Prediction','Fever_disease'])
 with tab1:
