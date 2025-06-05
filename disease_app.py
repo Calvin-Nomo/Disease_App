@@ -1,4 +1,3 @@
-#python -m streamlit run disease_app.py
 import streamlit as st
 import pandas as pd
 import joblib
